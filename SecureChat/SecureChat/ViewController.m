@@ -42,6 +42,7 @@ CryptLib* db;
     if(db == nil) {
     db = [[CryptLib alloc] init];
     }
+    
 }
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     return 1;
